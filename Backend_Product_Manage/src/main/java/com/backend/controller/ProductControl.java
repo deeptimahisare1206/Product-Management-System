@@ -50,7 +50,6 @@ public class ProductControl {
 		}
 	
 //	--------------------Show all Product--------------------
-	@PreAuthorize("hasRole('ADMIN','CUSTOMER','SALES')")
 	@GetMapping
 	public List<Products> getAll() {
 		return p_Services.getAll();

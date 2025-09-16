@@ -14,7 +14,8 @@ const Product = () => {
     const fetchproduct = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8090/products/${product_id}`
+          `http://localhost:8090/products/${product_id}`,
+         {withCredentials:true}
         );
         setproducts(response.data);
         fetchImage();
@@ -28,7 +29,7 @@ const Product = () => {
     const fetchImage = async () => {
       const response = await axios.get(
         `http://localhost:8090/products/${product_id}/image`,
-        { responseType: "blob" }
+        { responseType: "blob",withCredentials:true }
       );
       setImageUrl(URL.createObjectURL(response.data));
     };

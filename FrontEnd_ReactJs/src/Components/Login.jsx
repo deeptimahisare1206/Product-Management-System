@@ -9,7 +9,7 @@ const Login = () => {
 
     //  const [msg, setmsg] = useState();
     
-      const [username, setUsername] = useState("");
+      const [email, setEmail] = useState("");
       const [password, setPassword] = useState("");
       const [error, setError] = useState("");
     const navigate = useNavigate();
@@ -20,7 +20,7 @@ const Login = () => {
 setError('')
 
 const logData={
-  username,password
+  email , password
 }
         try {
             const response = await axios.post("http://localhost:8090/user/login", logData);
@@ -64,8 +64,8 @@ toast.error('Unauthorized');
                       className="border-b-teal-700 border-b-2 bg-transparent w-full outline-none px-4 py-1"
                       type="text"
                       name="username"
-                      value={username}
-                      onChange={(e)=>setUsername(e.target.value)}
+                      value={email}
+                      onChange={(e)=>setEmail(e.target.value)}
                     />
                   </td>
                 </tr>
