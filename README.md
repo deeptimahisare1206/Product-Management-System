@@ -36,5 +36,3 @@ This project is a Product management system built with ReactJS for the front end
 - <b>Maven: </b>For managing backend dependencies and building the Spring Boot application.
 - <b>Node.js & npm:</b> For managing frontend dependencies and running the React app(latest- Vite / bun).
 - <b>Postman:</b> For testing the backend API.
-- 
----
