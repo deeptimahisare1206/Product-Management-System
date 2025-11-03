@@ -11,6 +11,9 @@ This project is a Product management system built with ReactJS for the front end
   - <b>Update Product:</b> Enables modifying the details of an existing product.
   - <b>Delete Product:</b> Allows deleting products from the system.
   -<b>Search Products:</b> Allows users to search and filter products based on different criteria.
+
+------
+
 <h2>Tech Stack</h2>
 <h3>Frontend</h3>
 
