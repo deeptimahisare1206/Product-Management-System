@@ -1,3 +1,5 @@
+//Check for the User registration apis
+
 import axios from "axios";
 import { useState } from "react";
 import Navbar from "./Navbar";
