@@ -1,8 +1,7 @@
 # PRODUCT MANAGEMENT SYSTEM 
-<br>
 This project is a Product management system built with ReactJS for the front end and Spring Boot for the backend. It allows users to manage product information such as creating, updating, deleting, and viewing products. The system is designed with scalability and usability in mind.
 
-<h2>Features</h2>
+### Features
 
   - <b>Product Listing:</b> Displays a list of all products with details such as name, description, price, and stock status.
   - <b>Add New Product:</b> Allows users to add new products by entering details like name, price, description, and stock status.
